@@ -1,0 +1,11 @@
+name: Roll
+version: ${project.version}
+main: com.isuki.roll.Roll
+api-version: 1.17
+authors: [ Isuki ]
+permissions:
+  roll.allow:
+    default: true
+commands:
+  roll:
+    permission: roll.allow
